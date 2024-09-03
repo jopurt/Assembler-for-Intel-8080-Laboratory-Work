@@ -1,0 +1,16 @@
+LXI H, 0x0015
+MOV A, M
+INX H
+ADD M
+MOV B, A
+INX H
+MOV A, M
+INX H
+SUB M
+MOV C, A
+MOV A, B
+ADD C
+INX H
+MOV M, A
+HLT
+(x1+x2)+(x3-x4)
